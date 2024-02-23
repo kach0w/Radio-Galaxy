@@ -1,0 +1,9 @@
+The RadioGalaxyNET dataset contains radio images derived from observations with the ASKAP telescope. ASKAP is a radio telescope located at Inyarrimanha Ilgari Bundara, the Murchison Radio-astronomy Observatory (MRO). 
+
+The RadioGalaxyNET dataset has the following four sets of labels:
+1) the extended radio galaxy classes,
+2) the bounding boxes enclosing all components of each radio galaxy,
+3) the segmentation masks for radio galaxies and,
+4) the positions of infrared host galaxies.
+
+The RadioGalaxyNET dataset consists of 2,800 3-channel images that contain two radio sky channels and one corresponding infrared sky channel. We provide both noisy and processed radio images. The dataset consists of 2,800 extended radio galaxies, and because of their proximity in the sky, a total of 4,155 instances of these galaxies inevitably emerge within the 2,800 images. The dataset's radio galaxies are classified as 13% FR-I, 48% FR-II, 14% FR-x, and 25% R galaxies. The dataset is divided into three sets: training, validation, and test sets, with a split ratio of 0.7:0.15:0.15, respectively.
